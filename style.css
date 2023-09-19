@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1.name{
+    position: absolute;
+    left: 44%;
+    top: 30%;
+    font-size:2.5rem;
+}
+
+.lab{
+    border-radius: 50px;
+    /* transform: rotate(90deg); */
+    position: absolute;
+    top: 40%;
+    left: 34.6%;
+    border: 1px solid;
+    width: 28rem;
+    height: 2.2em;
+    margin-top: 0.6%;
+}
+
+.pop{
+    /* font-family: 'Montserrat', sans-serif; */
+     font-family: 'Mooli', sans-serif;
+}
+
+.top_icons{
+    position: absolute;
+    top: 1.2rem;
+    font-size:larger;
+    right: 9%;
+}
+
+.mail{
+    text-decoration: none;
+    color: gray;
+}
+
+.photo{
+    text-decoration: none;
+    color: gray;
+}
+
+.slab{
+    color: gray;
+}
+
+.mail:hover{
+    text-decoration: underline;
+}
+.photo:hover{
+    text-decoration: underline;
+}
