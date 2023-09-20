@@ -30,7 +30,8 @@ h1.name{
     position: absolute;
     top: 1.2rem;
     font-size:larger;
-    right: 9%;
+    right: 14%;
+    
 }
 
 .mail{
@@ -52,4 +53,21 @@ h1.name{
 }
 .photo:hover{
     text-decoration: underline;
+}
+
+.apps:hover{
+    transition: 1.3s;
+    background-color: rgb(226, 197, 197);
+    border: 5px solid gray;
+    border-radius: 50%;
+}
+
+.box{
+    height: 40%;
+    width: 55%;
+    border: 2px solid black;
+    background-color: white;
+    position: absolute;
+    top: 51%;
+    left: 24%
 }
