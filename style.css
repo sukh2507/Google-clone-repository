@@ -1,4 +1,4 @@
-*{
+    *{
     padding: 0;
     margin: 0;
 }
@@ -65,9 +65,15 @@ h1.name{
 .box{
     height: 40%;
     width: 55%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     background-color: white;
     position: absolute;
     top: 51%;
-    left: 24%
+    left: 24%;
+    /* background-image: url(ggl.png); */
+}
+.down{
+    position: absolute;
+    bottom: 5%;
+    right: 3%;
 }
